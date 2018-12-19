@@ -1,0 +1,5 @@
+data/Lippo Plaza Ekalosari.csv
+data/Blu Plaza.csv
+data/Mall Of serang.csv
+data/Public Hospital Siloam Karawaci.csv
+data/Siloam Hospital Karawaci.csv
