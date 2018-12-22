@@ -1,2 +1,1 @@
-# auto-report
-reporting
+# Panduan
