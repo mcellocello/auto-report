@@ -1,11 +1,12 @@
-import os,csv,xlwt
+import os,csv,xlwt,fnmatch
 wb = xlwt.Workbook();p=0;xx=None;xres = []
 worksheet = wb.add_sheet('Sheet 1');listtxt=open('list-client.txt','r');listsite=listtxt.readlines();lensite=len(listsite)
 xox=None
 for x in range (lensite):
 	listsite[x] = listsite[x].replace('\n', '')
-	fileproc=open(listsite[x]);fileread=csv.reader(fileproc);filedata=list(fileread);lendata=len(filedata)
-	worksheet.write_merge(p, p + 1, 0, 4,listsite[x].replace('count/',''))
+	target = fnmatch.filter(os.listdir('./count/'), listsite[x])
+	fileproc=open('count/'+target[0]);fileread=csv.reader(fileproc);filedata=list(fileread);lendata=len(filedata)
+	worksheet.write_merge(p, p + 1, 0, 4,target[0])
 	p = p + 2;datalist=[]
 	for i in range(lendata):
 		if filedata[i][0] == ' ' and i != 5:
