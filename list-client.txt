@@ -1,36 +1,36 @@
-count/Lippo Plaza Bogor Ekalokasari.csv
-count/Depok Town Square.csv
-count/Mall of Serang.csv
-count/City of Tomorrow.csv
-count/Blu Plaza.csv
-count/Tamini Square.csv
-count/Palembang Square & Extention.csv
-count/Lippo Plaza Lubuk Linggau.csv
-count/Lippo Plaza Jember.csv
-count/Siloam Hospital Kebon Jeruk.csv
-count/Lippo Mall Puri.csv
-count/PX-Pavilion.csv
-count/Pejaten Village.csv
-count/Lippo Mall Kemang.csv
-count/Cibubur Junction Mall.csv
-count/Plaza Semanggi.csv
-count/Lippo Mall Cikarang.csv
-count/Pluit Village.csv
-count/Cikarang CityWalk.csv
-count/Bandung Indah Plaza.csv
-count/Maxxbox Karawaci.csv
-count/Istana Plaza.csv
-count/Lippo Mall Kuta.csv
-count/Lippo Plaza Sunset.csv
-count/Duta Plaza Bali.csv
-count/Sun Plaza Medan.csv
-count/Lippo Plaza Medan.csv
-count/Plaza Medan Fair.csv
-count/Maxxbox Cikarang.csv
-count/Gajah Mada Plaza.csv
-count/Lippo Plaza Jogja.csv
-count/Palembang Icon.csv
-count/The Hypermart Cyberpark.csv
-count/Lippo Plaza Kebun Raya Bogor.csv
-count/Supermall Karawaci.csv
-count/Menara Asia.csv
+*ippo *laza *ogor *ka*.csv
+*epok *own *quare.csv
+*all *f *erang.csv
+*ity of *omorrow.csv
+*lu *laza.csv
+*amini *quare.csv
+*alembang *quare *.csv
+*ippo *laza *ubuk *inggau.csv
+*ippo *laza *ember.csv
+*iloam *ospital *eb*n *eruk.csv
+*ippo *all *uri.csv
+*avi*ion.csv
+*ejaten *illage.csv
+*ippo *all *emang.csv
+*ibubur *unction *all.csv
+*laza *emanggi.csv
+*ippo *all *ikarang.csv
+*luit *illage.csv
+*ikarang *ity*alk.csv
+*andung *ndah *laza.csv
+*axx*ox *arawaci.csv
+*stana *laza.csv
+*ippo *all *uta.csv
+*ippo *laza *unset.csv
+*uta *laza *ali.csv
+*un *laza *edan.csv
+*ippo *laza *edan.csv
+*laza *edan *air.csv
+*axxbox *ikarang.csv
+*ajah *ada *laza.csv
+*ippo *laza *ogja.csv
+*alembang *con.csv
+*he *ypermart *yberpark.csv
+*ippo *laza *eb*n*.csv
+*upermall *arawaci.csv
+*enara *sia.csv
