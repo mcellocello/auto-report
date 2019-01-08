@@ -1,12 +1,12 @@
-import os,csv,xlwt
-
+import os,csv,xlwt,fnmatch
+target=fnmatch.filter(os.listdir('.'),'Weekly_Report-Top_AP_by_Client_Count_*.csv')
 lisx=["BGR01","DPK01","SRG01","SBY01","BKS02","JKT03","PLB01","LLG01","JBR01",
 	  "JKB03","JKB02","JKB01","TGR03","JKS01","JKS02","JKT01","JKP02","CKR01",
 	  "JKU01","CKR03","BDG02","TGR04","BDG01","BLI02","BLI01","BLI03","MDN03",
 	  "MDN06","MDN01","CKR02","JKP01","JOG01","PLB02","TGR07","BGR03","TGR06",
 	  "TGR08"]
 
-wb = xlwt.Workbook();worksheet = wb.add_sheet('Sheet 1');raw=open('top.csv','r')
+wb = xlwt.Workbook();worksheet = wb.add_sheet('Sheet 1');raw=open(target[0],'r')
 rawread=csv.reader(raw);filedata=list(rawread);lendata=len(filedata)
 datalist=[];datahost=[]
 
