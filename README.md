@@ -21,7 +21,7 @@
 
     buka 'top-ap.py'
     
-    yang perlu disiapkan adalah file yang ingin diolah dengan nama 'top.csv'
+    yang perlu disiapkan adalah file yang ingin diolah.
     
     lalu setelah itu, kita dapat melakukan run. dan hasil outputnya adalah 'output-top-ap.xls'
     
