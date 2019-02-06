@@ -6,6 +6,8 @@
 
 # pip install -r requirement.txt
 
+# buat folder unik dan count di directory python tsb. lalu pindahkan data yang diperlukan ke masing masing folder yang sesuai.
+
 1. client-count
     
     buka 'count-client.py'
