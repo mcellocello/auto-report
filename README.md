@@ -10,7 +10,7 @@
     
     buka 'count-client.py'
     
-    yang perlu disiapkan adalah file yang ingin diolah dengan nama yang sesuai di list 'list-client.txt' dan file
+    yang perlu disiapkan adalah file yang ingin diolah dengan nama yang sesuai dengan struktur di list 'list-client.txt' dan file
     yang ingin diolah tersebut harus diletakkan di Folder 'count'
     
     perlu diingat bahwa untuk site 'RSUS & RSLV' tidak dapat menggunakan cara ini.
@@ -32,10 +32,7 @@
     yang perlu disiapkan adalah file yang ingin diolah dengan nama yang sesuai di list 'list-unique.txt' dan file
     yang ingin diolah tersebut harus diletakkan di Folder 'unik'
     
-    lalu setelah itu, kita dapat melakukan run. dan hasil outputnya adalah 'output-unique-client.xls'
-    
-    perlu diingat bahwa untuk site 'RSUS & RSLV' harus dilakukan penjumlahan antara kedua hasil outputnya.
-    
+    lalu setelah itu, kita dapat melakukan run. dan hasil outputnya adalah 'output-unique-client.xls  
     
     
     
