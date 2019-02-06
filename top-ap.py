@@ -7,8 +7,7 @@ lisx=["BGR01","DPK01","SRG01","SBY01","BKS02","JKT03","PLB01","LLG01","JBR01",
 	  "TGR08"]
 
 wb = xlwt.Workbook();worksheet = wb.add_sheet('Sheet 1');raw=open(target[0],'r')
-rawread=csv.reader(raw);filedata=list(rawread);lendata=len(filedata)
-datalist=[];datahost=[]
+filedata=list(csv.reader(raw));lendata=len(filedata);datalist=[];datahost=[]
 
 fnt = xlwt.Font();fnt.name = 'Calibri';fnt.colour_index = 0;fnt.height = 180;fnt.bold = False
 borders = xlwt.Borders();borders.left = 1;borders.right = 1;borders.top = 1;borders.bottom = 1
@@ -29,7 +28,7 @@ for j in range(len(datahost)):
 		if n==ln:
 			break
 		elif lisx[n] in datahost[i] and n < ln:
-			print("ada",datahost[i],"jumlah",datalist[i])
+			print(datahost[i],"jumlah top =",datalist[i])
 			worksheet.write_merge(p, p + 1, 0, 0, datahost[i], style)
 			worksheet.write_merge(p, p + 1, 1, 1, datalist[i], style)
 			p=p+2;n=n+1
@@ -41,3 +40,4 @@ for j in range(len(datahost)):
 				break
 
 wb.save("output-top-ap.xls")
+print('\nSukses bosq ==>> "output-top-ap.xls"')
