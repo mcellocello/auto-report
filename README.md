@@ -15,8 +15,6 @@
     yang perlu disiapkan adalah file yang ingin diolah dengan nama yang sesuai dengan struktur di list 'list-client.txt' dan file
     yang ingin diolah tersebut harus diletakkan di Folder 'count'
     
-    perlu diingat bahwa untuk site 'RSUS & RSLV' tidak dapat menggunakan cara ini.
-    
     lalu setelah itu, kita dapat melakukan run. dan hasil outputnya adalah 'output-count-client.xls'
 
 2. top AP
