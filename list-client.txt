@@ -10,6 +10,8 @@
 *iloam *ospital *eb*n *eruk.csv
 *ippo *all *uri.csv
 *avi*ion.csv
+*ublic *ospital *iloam *arawaci.csv
+*iloam *ospital *arawaci.csv
 *ejaten *illage.csv
 *ippo *all *emang.csv
 *ibubur *unction *all.csv
